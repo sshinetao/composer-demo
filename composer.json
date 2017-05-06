@@ -1,0 +1,16 @@
+{
+	"require" : {
+		"twig/twig": "*",
+		"noahbuscher/macaw" : "dev-master",
+		"filp/whoops" : "*",
+		"catfan/medoo":"*"
+	},
+	"autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\Controllers\\": "app/controllers/",
+            "App\\Models\\": "app/models/",
+            "App\\Views\\": "app/views/"
+        }
+	}
+}
